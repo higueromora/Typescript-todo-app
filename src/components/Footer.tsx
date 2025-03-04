@@ -10,7 +10,7 @@ interface Props {
     handleFilterChange: (filter: FilterValue) => void
 }
 
-export const Footer: React.FC<Prop> = ({
+export const Footer: React.FC<Props> = ({
     activeCount = 0 ,
     completedCount = 0,
     filterSelected,
