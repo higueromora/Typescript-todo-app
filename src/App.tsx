@@ -1,4 +1,4 @@
-import React ,{ JSX } from 'react'
+import { JSX } from 'react'
 import './App.css'
 import { Todos } from './components/Todos'
 import { Footer } from './components/Footer'
